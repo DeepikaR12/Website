@@ -1,0 +1,135 @@
+*{ 
+    margin: 0;
+padding: 0;
+color: black;
+
+}
+body{
+    background: white;
+}
+nav:after{
+    content:'';
+    clear: both;
+    display: table;
+}
+nav{
+    background: white;
+
+}
+nav ul{
+    float: left;
+    list-style: none;
+    margin-left: 40px;
+    position: relative;
+
+}
+nav ul li{
+
+    display: inline-block;
+    background: white;
+    margin: 0 5px;
+}
+nav ul li a :hover{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 9px,15px;
+}
+nav #icon{
+color: white;
+font-size: 30px;
+line-height: 80px;
+float: right;
+margin-right: 40px;
+cursor: pointer;
+}
+.navbar-inverse{
+    background: 050a2e;
+    padding: 8px;
+    font-size: 17px;
+}
+.navbar-nav{
+    padding: 0 0 0 20px;
+}
+.navbar-right{
+    margin-right: 100px;
+}
+.home-sec{
+    padding: top 10px;
+    padding-bottom: 40px;
+    background: url(../img/header.jpg) no repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+
+}
+.banner-cover{
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no no-repeat;
+}
+.tag-line{
+    background:white;
+    color: white;
+
+}
+.tag-line
+    h2{
+        font-size: 20px;
+        font-weight: 900;
+        padding: 5px 10px 10px 5px;
+        color: #005e5a;
+
+    }
+.tag-line h2{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+nav .animation{
+    position: absolute;
+    height: 100%;
+    top: 0;
+z-index: 0;
+background: #1abc9c;
+width: 100px;
+
+}
+ul li a hover{
+color: black;
+}
+.tag-line h1{
+    color: #005e5a;
+}
+.card body{
+    color: black;
+    background-color:black;
+  
+}
+
+.menu>.menu-content{
+    width: 200px;
+    height: 65px;
+    float: right;
+    font-family: sans-serif,arial;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.05em;
+    position: relative;
+    color: #fff;
+    line-height: 65px;
+
+}
+.menu>.menu-content>a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+  
